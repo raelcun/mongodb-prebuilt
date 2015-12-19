@@ -4,7 +4,6 @@
   "description": "Install MongoDB prebuilt binaries via npm",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node install.js",
     "cache-clean": "rm -rf dist *.txt"
   },
   "bin": {
